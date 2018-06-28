@@ -5,6 +5,7 @@ import ProductList from "theme/modules/ProductList";
 import HomeBanner from "theme/modules/HomeBanner";
 import LoadingArea from "theme/ui/molecules/LoadingArea";
 import Page from "theme/ui/templates/Page";
+import Reinsurance from "theme/modules/Reinsurance";
 
 const Home = ({ store, category, loading }) => (
   <Page>
@@ -14,6 +15,7 @@ const Home = ({ store, category, loading }) => (
     ) : (
       <ProductList products={category.layer.products} />
     )}
+    <Reinsurance />
   </Page>
 );
 

@@ -1,0 +1,12 @@
+.inline-cards {
+  .illustrated-content {
+    &__media {
+      > * {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        color: $brandPrimary;
+      }
+    }
+  }
+}
